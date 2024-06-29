@@ -1,10 +1,12 @@
 const express = require('express');
 const serverless = require('serverless-http');
+var cors = require('cors');
+const axios = require('axios');
 const app = express();
 const router = express.Router();
-const axios = require('axios');
 
 require('dotenv').config();
+app.use(cors());
 
 router.get('/', (_req, res) => {
   res.send('App is running..');
