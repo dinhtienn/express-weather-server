@@ -2,7 +2,7 @@
 
 Public api: [Weather server](https://weather-server-tnd.netlify.app/.netlify/functions/app)
 
-## Run project
+<!-- ## Run project
 
 ```
 npm install
@@ -10,7 +10,7 @@ npm install
 
 ```
 npm start
-```
+``` -->
 
 ## Deploy project
 
